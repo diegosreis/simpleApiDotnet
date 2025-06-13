@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "DbyMkz1Do1I=",
+  "dgSpecHash": "XKb7/kRltMI=",
   "success": true,
   "projectFilePath": "/Users/diegoreis/projects/dotnet/SimpleApiDotnet/SimpleApiDotnet.csproj",
   "expectedPackageFiles": [
+    "/Users/diegoreis/.nuget/packages/confluent.kafka/2.10.1/confluent.kafka.2.10.1.nupkg.sha512",
+    "/Users/diegoreis/.nuget/packages/librdkafka.redist/2.10.1/librdkafka.redist.2.10.1.nupkg.sha512",
     "/Users/diegoreis/.nuget/packages/microsoft.aspnetcore.openapi/9.0.5/microsoft.aspnetcore.openapi.9.0.5.nupkg.sha512",
     "/Users/diegoreis/.nuget/packages/microsoft.entityframeworkcore/9.0.5/microsoft.entityframeworkcore.9.0.5.nupkg.sha512",
     "/Users/diegoreis/.nuget/packages/microsoft.entityframeworkcore.abstractions/9.0.5/microsoft.entityframeworkcore.abstractions.9.0.5.nupkg.sha512",
