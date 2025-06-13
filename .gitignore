@@ -1,0 +1,83 @@
+# Visual Studio files
+.vs/
+*.suo
+*.user
+*.pdb
+*.obj
+*.exe
+*.dll
+*.pri
+*.lib
+*.ncb
+*.sqlproj.user
+*.dbmdl
+*.jfm
+*.pfx
+*.publishsettings
+*.esproj.user
+
+# Build outputs
+[Dd]ebug/
+[Rr]elease/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+*.dll
+*.exe
+*.pdb
+*.json
+*.deps.json
+*.runtimeconfig.json
+
+# Rider files
+.idea/
+*.sln.DotSettings
+*.csproj.DotSettings
+*.editorconfig
+.idea.checksums
+
+# NuGet packages
+packages/
+*.nupkg
+*.snupkg
+*.cache
+# Do not ignore project.json and .xproj files, these are required by NuGet.
+# However, you should ignore the NuGet virtual packages directory for .NET Core
+# projects, which is usually in the user's home directory.
+# Example: /Users/<your-username>/.nuget/packages
+# For macOS, if you're not using a global packages folder defined by NUGET_PACKAGES env var
+# you usually have it in your user's home directory.
+# But it's generally good practice to not check in the 'packages' directory itself.
+
+# Dependencies / Third-party
+node_modules/
+
+# Logs
+*.log
+log/
+logs/
+
+# Test results
+TestResults/
+*.trx
+
+# User-specific files
+*.bak
+*.tmp
+*.user
+
+# SQL Server files
+*.mdf
+*.ldf
+
+# Docker related files
+.dockerignore
+Dockerfile.orig
+
+# Azure / AWS related files
+.azure/
+.aws/
+# Potentially ignore generated files from AWS/Azure CLI tools, e.g. .sam/
+.sam/
+# For ECR credentials
+.docker/config.json # Keep this if you use personal configs, but ensure sensitive data is not committed
